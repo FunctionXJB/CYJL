@@ -19,7 +19,7 @@ public class CYJL{
 			
 			for(int i=0;i<output.size()&&i<10;i++)
 				System.out.println(output.get(i));
-			setSysClipboardText(output.get(0));
+			setSysClipboardText(output.get((int)(Math.random()*output.size())));
 			
 			System.out.print("ÇëÊäÈë³ÉÓï£º");
 		}
